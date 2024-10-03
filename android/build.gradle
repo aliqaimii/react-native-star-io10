@@ -27,6 +27,8 @@ def getExtOrIntegerDefault(name) {
 }
 
 android {
+    namespace 'com.stario10module'
+    
     compileSdkVersion getExtOrIntegerDefault('compileSdkVersion')
     buildToolsVersion getExtOrDefault('buildToolsVersion')
     defaultConfig {
